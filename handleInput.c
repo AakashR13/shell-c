@@ -8,7 +8,6 @@ int handleInput(char* tokens[]){
     char* token = strtok(input," \t\n");
     int count = 0;
     while(token != NULL){
-        // printf("\"%s\"\n",token);
         tokens[count] = token;
         token = strtok(NULL," \t\n");
         count++;

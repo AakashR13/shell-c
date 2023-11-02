@@ -12,9 +12,10 @@ int main(int argc, char **argv)
     getcwd(home, BUFFER_SIZE);
     getcwd(pseudo_home, BUFFER_SIZE);
     getcwd(prev_dir, BUFFER_SIZE);
+    char* tokens[BUFFER_SIZE];
+    init_history();
     while (true)
     {
-        char* tokens[BUFFER_SIZE];
         if(display()==0);
         int count = handleInput(tokens);
         if (count == 0 || count == -1)
@@ -22,7 +23,6 @@ int main(int argc, char **argv)
         // printf("%d\n", count);
         
         execute(tokens, count);
-        printf("before?\n");
     }
     return 0;
 }

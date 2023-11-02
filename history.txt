@@ -1,0 +1,16 @@
+Äê9Rˇ 
+echo dwadawd
+ll-c
+history
+echo dwadawdaw
+echo dwadksdakjsda
+cd ..
+history
+echo 
+history
+ll-c
+history
+echo 
+ll-c
+echo 
+ll-c
